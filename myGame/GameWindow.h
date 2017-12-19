@@ -23,7 +23,7 @@ public:
 	void Draw(sf::Drawable& l_drawable);
 
 private:
-	void Setup();
+	void Setup(const std::string& l_title, const sf::Vector2u& l_size);
 	void Destroy();
 	void Create();
 

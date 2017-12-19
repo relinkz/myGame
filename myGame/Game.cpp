@@ -2,7 +2,7 @@
 #include "Game.h"
 
 
-Game::Game() : m_window("Chapter 2", sf::Vector2u(800, 600))
+Game::Game() : m_window("Basic Snake", sf::Vector2u(800, 600))
 {
 	if (!m_text.loadFromFile(ASSETS_PATH + "test.png"))
 		std::printf("Error reading texture from file");
